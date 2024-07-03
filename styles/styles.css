@@ -4,4 +4,26 @@ body{
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    color: aliceblue;
+}
+
+.m-top{
+    margin-top: 20%;
+}
+
+.text-color{
+    color: rgb(233, 233, 233);
+}
+
+.text-title-game{
+    color: rgb(117, 0, 117);
+}
+
+.h2-color{
+    color: rgb(191, 156, 16);
+    padding: 18px 0 18px;
+    border-bottom: 1px solid rgb(191, 156, 16);
+}
+.h4-color{
+    color: rgb(94, 94, 127);
 }

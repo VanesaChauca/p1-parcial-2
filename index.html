@@ -12,27 +12,43 @@
         <title>Store Game</title>
     </head>
     <body>
-        <header>
-            <!-- Reemplazar por los datos que correspondan -->
-            <h1>Programación I | Parcial 2 | APELLIDO/S | Mi carrito</h1>
-        </header>
-        <div class="container-fluid bg-dark p-0">
-            <main>
-                <!-- Este es un ejemplo de contenedor de carrito -->
-                <div id="carrito">
-                    <p><span>0</span> ítems agregados</p>
-                    <p>$<span>0</span> es el total</p>
-                    <!-- Estos filtros pueden ser links, botones, menu desplegable. Sugiero generarlos dinamicamente -->
-                    <p>Filtrar por <a href="#">Categoría 1</a> | <a href="#">Categoría 2</a> | <a href="#">Categoría 3</a></p>
-                    <button>Ver carrito</button>
-                </div>
-                <h2>Productos</h2>
+        <div class="container-fluid bg-dark p-2 m-top">
+            <h1 class="d-flex justify-content-center">Programación I | Parcial 2 | APELLIDO/S | Mi carrito</h1>
+            <header class="container">
                 
-                <div id="productos">
-                    <!-- Aca irian los productos -->
-                </div>
+                <nav class="navbar navbar-dark navbar-expand-md " id="carrito"> 
+                    <a class="navbar-brand me-3" href="#">
+                        <img src="/images/logo.png" alt="logo" width="200px" height="40px">
+                    </a>
+                    <div class="collapse navbar-collapse" id="barraNavegacion">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link me-3" href="#">Categoría 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-3" href="#">Categoría 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-3" href="#">Categoría 3</a>
+                            </li>
+                            <button class="btn btn-primary">Ver carrito</button>
+                        </ul>
+                    </div>
+                        
+                </nav>
+            </header>
+            <div class="container-fluid bg-dark p-0">
+                <main class="container">
+                    <!-- Este es un ejemplo de contenedor de carrito -->
+                    
+                    <h2>Productos</h2>
+                    
+                    <div id="productos">
+                        <!-- Aca irian los productos -->
+                    </div>
 
-            </main>
+                </main>
+            </div>
         </div>
         <footer class="container-fluid bg-dark text-light p-3">
             <div class="container">
