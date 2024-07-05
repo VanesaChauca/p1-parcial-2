@@ -12,49 +12,49 @@
         <title>Store Game</title>
     </head>
     <body>
-        <div class="container-fluid bg-dark p-2 m-top">
-            <h1 class="d-flex justify-content-center">Programación I | Parcial 2 | APELLIDO/S | Mi carrito</h1>
-            <header class="container">
-                
-                <nav class="navbar navbar-dark navbar-expand-md " id="carrito"> 
-                    <a class="navbar-brand me-3" href="#">
-                        <img src="/images/logo.png" alt="logo" width="200px" height="40px">
-                    </a>
-                    <div class="collapse navbar-collapse" id="barraNavegacion">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link me-3" href="#">Categoría 1</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link me-3" href="#">Categoría 2</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link me-3" href="#">Categoría 3</a>
-                            </li>
-                            <button class="btn btn-primary">Ver carrito</button>
-                        </ul>
-                    </div>
-                        
-                </nav>
-            </header>
-            <div class="container-fluid bg-dark p-0">
-                <main class="container">
-                    <!-- Este es un ejemplo de contenedor de carrito -->
-                    
+        <div class="container-fluid p-2 m-top">
+            <div class="container bg-dark">
+                <h1 class="d-flex justify-content-center">Programación I | Parcial 2 | CHAUCA VANESA</h1>
+                <header class="container"> 
+                    <nav class="navbar navbar-dark navbar-expand-md" id="carrito"> 
+                        <a class="navbar-brand me-3" href="index.html">
+                            <img src="/images/logo.png" alt="logo" width="200px" height="40px">
+                        </a>
+                        <div class="collapse navbar-collapse" id="carrito">
+                                <form class="d-flex ms-auto">
+                                    <select id="filtroCategoria" class="form-select me-2 h-25">
+                                        <option value="todas">Todas las categorías</option>
+                                    </select>
+                                    
+                                    <button class="btn me-4"><img src="images/carrito.png" alt="icon carrito" ><span id="cuenta-carrito">0</span></button>
+                                    <p calss="ms-3">Total a pagar: <span id="totalCarrito"span></p>
+                                </form>
+                        </div>     
+                    </nav>
+                </header>
+            </div>
+            <div class="container-fluid p-0">
+                <main class="container bg-dark ps-4 pe-4">
                     <h2>Productos</h2>
-                    
-                    <div id="productos">
-                        <!-- Aca irian los productos -->
+                    <div id="listaProductos" class="row">
+                        <!-- Aquí irán los juegos -->
                     </div>
-
+                    <div id="modal-producto" class="modal">
+                        <div class="modal-contenido">
+                            <span id="cerrar-modal" class="cerrar-modal">&times;</span>
+                            <div id="detalles-modal-producto"></div>
+                        </div>
                 </main>
             </div>
-        </div>
+        </div>        
+        <script src="scripts/index.js"></script>
+        <script src="scripts/carrito.js"></script>
+
         <footer class="container-fluid bg-dark text-light p-3">
             <div class="container">
                 <div class="row m-auto align-items-center">
                     <div class=" col-12 col-md-8 ps-0">
-                        <ul class="mb-0 list-unstyled ">
+                        <ul class="mb-0 list-unstyled d-flex justify-content-between align-items-center">
                             <li>
                                 <a href="mailto:fabrizio.carlassara@davinci.edu.ar?subject=P1%20-%20Consulta%20-%20DW2[M|T|N][A|B]%20-%20Apellido,%20Nombre" target="_blank">fabrizio.carlassara@davinci.edu.ar</a>
                             </li>
@@ -66,6 +66,5 @@
                 </div>
             </div>
         </footer>
-        
     </body>
 </html>

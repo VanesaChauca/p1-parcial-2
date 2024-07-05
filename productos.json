@@ -1,10 +1,74 @@
 [
     {
         "id": 1,
-        "nombre": "Producto",
-        "descripcion": "Descripción del producto",
-        "precio": 0,
-        "imagen": "images/producto-de-ejemplo.jpg",
-        "categoría": "Nombre de la categoría"
+        "nombre": "Spider Man Remastered",
+        "descripcion": "Vive la experiencia definitiva de ser Spider-Man en Nueva York. Balancea entre rascacielos, enfréntate a villanos icónicos y descubre una emocionante historia en esta aclamada remasterización.",
+        "precio": 29.000,
+        "imagen": "https://www.premiumcdkeys.com/cdn/shop/files/MarvelsSpider-ManRemastered500x700.jpg?v=1691159739",
+        "categoria": "aventura"
+    },
+    {
+        "id": 2,
+        "nombre": "The Legend of Zelda",
+        "descripcion": "Comienza una épica aventura en el mágico reino de Hyrule. Únete a Link en su misión para rescatar a la princesa Zelda y derrotar al malvado Ganon en esta icónica serie de videojuegos llena de puzzles, combate y exploración.",
+        "precio": 20.000,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_original/co1tpm.webp",
+        "categoria": "aventura"
+    },
+    {
+        "id": 3,
+        "nombre": "Minecraft: Story Mode",
+        "descripcion": "Inicia una aventura épica como Jesse y salva el mundo de Minecraft. Descubre una emocionante historia donde tus decisiones importan.",
+        "precio": 15.000,
+        "imagen": "https://par30dl.net/wp-content/uploads/2017/12/Minecraft-Story-Mode-Season-Two-Complete.jpg",
+        "categoria": "aventura"
+    },
+    {
+        "id": 4,
+        "nombre": "God Of War: Rangnarok",
+        "descripcion": "Kratos esta de vuelta la venganza contra los dioses del Olimpo ha quedado atrás y ahora vive como un hombre en las tierras de los dioses.",
+        "precio": 50.000,
+        "imagen": "https://i.3djuegos.com/juegos/17544/god_of_war_ragnarok/fotos/ficha/god_of_war_ragnarok-5732812.jpg",
+        "categoria": "Acción"
+    },
+    {
+        "id": 5,
+        "nombre": "Gotham Knights",
+        "descripcion": "Gotham Knights, es un RPG de mundo abierto, ambientado en la versión más dinámica de Ciudad Gótica hasta ahora.",
+        "precio": 22.000,
+        "imagen": "https://assets.mycast.io/posters/gotham-knights-fan-casting-poster-127585-large.jpg?1630811569",
+        "categoria": "Acción"
+    },
+    {
+        "id": 6,
+        "nombre": "The last of us: part 1",
+        "descripcion": "Joel y Ellie vuelven a la acción con un apartado visual completamente renovado y varias novedades para los usuarios de PS5.",
+        "precio": 19.000,
+        "imagen": "https://i.pinimg.com/564x/4c/c5/dc/4cc5dc80bcb00be1e268b5c6fd61fa60.jpg",
+        "categoria": "Acción"
+    },
+    {
+        "id": 7,
+        "nombre": "Call of Duty: Warzone",
+        "descripcion": "Únete a tus amigos y lucha en un tiroteo a gran escala donde batallarán para ser el último escuadrón en pie en el battle royale gratuito de Call of Duty.",
+        "precio": 17.000,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BOTZjZWFmNDctYWRkZS00YjBmLTk1NmYtZDgyMTZkNzc3ZDBiXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+        "categoria": "Multijugador"
+    },
+    {
+        "id": 8,
+        "nombre": "Destiny 2",
+        "descripcion": "Sumérgete en el mundo de Destiny 2 para explorar los misterios del sistema solar y vivir sus dinámicos combates de disparos en primera persona.",
+        "precio": 30.000,
+        "imagen": "https://s3-us-west-2.amazonaws.com/www.claners.com/uploads/products/thumbs/5a5216c062813a87085577b91cc71ca0.webp",
+        "categoria": "Multijugador"
+    },
+    {
+        "id": 9,
+        "nombre": "GTA Online",
+        "descripcion": "Disfruta de la experiencia de GTA, un universo dinámico y en constante evolución para hasta 30 jugadores, donde podrás pasar de ser un estafador callejero a convertirte en el capo de tu propio imperios criminal.",
+        "precio": 15.000,
+        "imagen": "https://render.fineartamerica.com/images/rendered/default/greeting-card/images/artworkimages/medium/3/grand-theft-auto-the-trilogy-gta-v-gta-5-gangster-katelyn-smith.jpg?&targetx=0&targety=33&imagewidth=500&imageheight=633&modelwidth=500&modelheight=700&backgroundcolor=365375&orientation=1",
+        "categoria": "Multijugador"
     }
 ]
